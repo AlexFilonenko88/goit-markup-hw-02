@@ -1,7 +1,17 @@
-/* Цвет основного текста №212121 */
+/* Цвет основного текста #212121 */
 /* Вторичный цыет #757575 */
 
 /* Белый #FFFFFF */
 /* Акцент №2196F3 */
 
 /* Вторичный цвет фона #E5E5E5 */
+
+:root {
+  --primary-white-color: #212121;
+  --primary-text-color: #ffffff;
+}
+
+body {
+  background-color: var(primary-white-color);
+  color: var(--primary-text-color);
+}

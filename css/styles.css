@@ -20,7 +20,7 @@ body {
   color: var(--primary-text-color);
 }
 
-ul {
+.list {
   list-style: none;
 }
 

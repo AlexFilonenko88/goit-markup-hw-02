@@ -51,16 +51,13 @@ body {
 .button {
   background-color: #ffffff;
   color: #2196f3;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 .hero {

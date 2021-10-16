@@ -2,16 +2,90 @@
 /* Вторичный цыет #757575 */
 
 /* Белый #FFFFFF */
-/* Акцент №2196F3 */
+/* Акцент #2196F3 */
 
 /* Вторичный цвет фона #E5E5E5 */
 
 :root {
-  --primary-white-color: #212121;
-  --primary-text-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #212121;
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --section-hero: #2f303a;
+  --section-teams: #f5f4fa;
 }
 
 body {
-  background-color: var(primary-white-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.site-nav,
+.site-nav {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  background-color: #ffffff;
+  color: #2196f3;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.hero {
+  background-color: var(--section-hero);
+  color: #ffffff;
+}
+
+.offers-list {
+  color: #757575;
+}
+
+.teams {
+  background-color: var(--section-teams);
+}
+
+.teams-person {
+  color: #757575;
+}
+
+.footer {
+  background-color: var(--section-hero);
+}
+
+.footer-nav {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Страница portfolio */
+
+.project-list {
+  color: #757575;
 }

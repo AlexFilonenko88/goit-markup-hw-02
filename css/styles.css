@@ -1,5 +1,5 @@
 /* Цвет основного текста #212121 */
-/* Вторичный цыет #757575 */
+/* Вторичный цвет #757575 */
 
 /* Белый #FFFFFF */
 /* Акцент #2196F3 */
@@ -57,6 +57,10 @@ body {
 .button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .hero {

@@ -43,7 +43,7 @@ body {
 
 .logo-color {
   color: var(--accent-color);
-  
+
 }
 
 .site-nav {
@@ -137,6 +137,15 @@ body {
   line-height: 1.18;
 }
 
+.offers > h2,
+.works > h2,
+.teams > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
 /* Футер */
 
 .footer {
@@ -161,18 +170,4 @@ body {
   line-height: 1.87;
 }
 
-.offers > h2,
-.works > h2,
-.teams > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
 
-.list-name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}

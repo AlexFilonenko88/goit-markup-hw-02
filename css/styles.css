@@ -30,6 +30,7 @@ body {
 .logo {
   color: var(--title-text-color);
   font-family: Raleway, cursive;
+  text-decoration: none;
 
   font-size: 26px;
   line-height: 1.19;
@@ -37,6 +38,10 @@ body {
 
 .logo:hover,
 .logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-color {
   color: var(--accent-color);
 }
 
@@ -59,49 +64,114 @@ body {
   color: var(--accent-color);
 }
 
+/* Блок герой */
+
 .button {
   background-color: #ffffff;
   color: #2196f3;
   cursor: pointer;
 
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+
+.button-portfolio {
+  background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.button-portfolio:hover,
+.button-portfolio:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 
 .hero {
-  background-color: var(--section-hero);
-  color: #ffffff;
+  /* background-color: var(--section-hero); */
+  color: var (var(--primary-text-color));
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+/* Наши предложения */
+
+.list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .offers-list {
   color: #757575;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
+/* Наша команда */
+
 .teams {
-  background-color: var(--section-teams);
+  /* background-color: var(--section-teams); */
+}
+
+.teams-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .teams-person {
   color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
+/* Футер */
+
 .footer {
-  background-color: var(--section-hero);
+  /* background-color: var(--section-hero); */
 }
 
 .footer-nav {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--primary-text-color)
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Страница portfolio */
 
-.project-list {
+.list-project {
   color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.offers > h2,
+.works > h2,
+.teams > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.list-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }

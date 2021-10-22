@@ -10,6 +10,7 @@
   --primary-white-color: #ffffff;
   --primary-text-color: #212121;
   --title-text-color: #000000;
+  --class-offers-works: #e5e5e5;
   --accent-color: #2196f3;
   --section-hero: #2f303a;
   --section-teams: #f5f4fa;
@@ -37,11 +38,6 @@ body {
   line-height: 1.19;
 }
 
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
-
 .logo-color {
   color: var(--accent-color);
 }
@@ -56,7 +52,8 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -72,19 +69,27 @@ body {
 /* Блок герой */
 
 .button {
-  background-color: #ffffff;
-  color: #2196f3;
+  background-color:#2196f3;
+  color: #ffffff;
   cursor: pointer;
 
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
 }
 
+.button-portfolio-first {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color)
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
 .button-portfolio {
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .button:hover,
@@ -96,13 +101,17 @@ body {
 }
 
 .hero {
-  /* background-color: var(--section-hero); */
+  background-color: var(--section-hero);
   color: var (var(--primary-text-color));
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+}
+
+.hero > h1 {
+  color: var(--primary-white-color);
 }
 
 /* Наши предложения */
@@ -121,10 +130,15 @@ body {
   line-height: 1.71;
 }
 
+.offers,
+.works {
+  background-color: var(--class-offers-works);
+}
+
 /* Наша команда */
 
 .teams {
-  /* background-color: var(--section-teams); */
+  background-color: var(--section-teams);
 }
 
 .teams-name {
@@ -153,16 +167,21 @@ body {
 /* Футер */
 
 .footer {
-  /* background-color: var(--section-hero); */
+  background-color: var(--section-hero);
 }
 
 .footer-nav {
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
   text-decoration: none;
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+  color: #2196f3;
 }
 
 /* Страница portfolio */

@@ -44,7 +44,6 @@ body {
 
 .logo-color {
   color: var(--accent-color);
-
 }
 
 .site-nav {
@@ -59,6 +58,10 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -154,7 +157,8 @@ body {
 }
 
 .footer-nav {
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
+  text-decoration: none;
 
   font-weight: 400;
   font-size: 14px;
@@ -170,5 +174,3 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
-
-

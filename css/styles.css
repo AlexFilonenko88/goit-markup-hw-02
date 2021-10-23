@@ -30,7 +30,7 @@ body {
 /* Logo */
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway, cursive;
+  font-family: Raleway;
   text-decoration: none;
 
   font-weight: 700;

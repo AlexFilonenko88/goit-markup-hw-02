@@ -83,9 +83,10 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* .buttom:hover,
+.button:hover,
 .button:focus {
-} */
+  background-color: #188ce8;
+}
 
 .button-portfolio-first {
   background-color: var(--accent-color);
@@ -101,8 +102,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.button:hover,
-.button:focus,
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: var(--accent-color);

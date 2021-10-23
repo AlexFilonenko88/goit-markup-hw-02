@@ -23,10 +23,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
-  list-style: none;
-}
-
 /* Logo */
 .logo {
   color: var(--title-text-color);
@@ -44,6 +40,7 @@ body {
 
 .site-nav {
   color: var(--title-text-color);
+  list-style: none;
 
   font-weight: 500;
   font-size: 14px;
@@ -59,11 +56,17 @@ body {
 
 .link {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
+}
+
+.site-nav .link-nav {
+  text-decoration: none;
+  color: #757575;
 }
 
 /* Блок герой */
@@ -77,9 +80,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
 }
+
+/* .buttom:hover,
+.button:focus {
+} */
 
 .button-portfolio-first {
   background-color: var(--accent-color);
@@ -106,11 +112,13 @@ body {
 .hero {
   background-color: var(--section-hero);
   color: var (var(--primary-text-color));
+  text-align: center;
+}
 
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -119,13 +127,6 @@ body {
 }
 
 /* Наши предложения */
-
-.list h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.06em;
-}
 
 .offers-list {
   color: #757575;
@@ -178,15 +179,23 @@ body {
 .footer-nav {
   color: var(--primary-white-color);
   text-decoration: none;
+  font-style: normal;
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.footer-nav:hover,
-.footer-nav:focus {
-  color: #2196f3;
+.list {
+  list-style: none;
+}
+
+.logo-color-second {
+  color: #ffffff;
+}
+
+.list .footer-nav {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Страница portfolio */
@@ -197,4 +206,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.list-link {
+  text-decoration: none;
+}
+
+.list-name {
+  color: #212121;
 }
